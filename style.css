@@ -1,5 +1,7 @@
+
 body {
   background-color: #232323;
+  height: 100%;
 }
 
 .square {
@@ -8,8 +10,16 @@ body {
   padding-bottom: 30%;
   float: left;
   margin: 1.66%
+}
 
+#header {
+  background-color: #4682B4;
+  height: 50%;
+  text-align: center;
+}
 
+#colorDisplay {
+  text-transform: uppercase;
 }
 
 #container{
