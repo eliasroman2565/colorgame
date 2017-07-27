@@ -2,6 +2,8 @@
 body {
   background-color: #232323;
   height: 100%;
+  margin: 0;
+  font-family: "Calibri";
 }
 
 .square {
@@ -20,6 +22,7 @@ body {
 
 #colorDisplay {
   text-transform: uppercase;
+  font-size: 200%
 }
 
 #container{
@@ -29,6 +32,9 @@ body {
 
  h1 {
   color: white;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 #message {
@@ -39,4 +45,8 @@ body {
   background-color: white;
   height:30px;
   text-align: center;
+}
+
+.selected{
+  background: blue;
 }
